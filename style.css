@@ -1,0 +1,87 @@
+@import url(https://fonts.google.com/specimen/Young+Serif);
+@import url(https://fonts.google.com/specimen/Outfit);
+
+html {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+  line-height: 2;
+  font-size: 16px;
+}
+
+img {
+  max-height: fit-content;
+  max-width: 100%;
+}
+
+.recipe {
+  display: block;
+  overflow-wrap: break-word;
+  background-color: hsl(0, 0%, 100%);
+  font-family: Outfit;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin: 10% 30% 20% 30%;
+  padding: 25px;
+  max-width: 40%;
+}
+
+.prepTime {
+  background-color: hsl(330, 100%, 98%);
+  margin: 10px 10px 10px 10px;
+  padding: 10px 0 10px 20px;
+}
+
+h1 {
+  font-family: "Young Serif";
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  color: hsl(24, 5%, 18%);
+}
+
+h2 {
+  font-weight: 700;
+  font-family: "Young Serif";
+  color: hsl(14, 45%, 36%);
+}
+
+h3 {
+  font-weight: 600;
+  color: hsl(332, 51%, 32%);
+}
+
+p {
+  text-indent: 1%;
+}
+
+li::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+ol > li::marker {
+  font-weight: bold;
+}
+
+.nutrition {
+  padding-right: 10rem;
+}
+
+.values {
+  color: hsl(332, 51%, 32%);
+}
+
+.nutrition,
+.values {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
